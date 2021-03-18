@@ -10,7 +10,8 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
 
 setup_requirements = [ ]
 
@@ -31,7 +32,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Package for styling html-tables generated from Pandas DataFrames.",
+    description="Package for styling html-tables generated from Pandas DataFrames",
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,

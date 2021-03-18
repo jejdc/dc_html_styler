@@ -1,0 +1,5 @@
+* Make changes
+* Upload to git
+* update version in 'setup.py'
+* py -m build
+* py -m twine upload dist/*

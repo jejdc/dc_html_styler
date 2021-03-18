@@ -43,6 +43,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/jejdc/dc_html_styler',
-    version='0.1.1',
+    version='0.1.3',
     zip_safe=False,
 )
